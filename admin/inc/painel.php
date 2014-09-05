@@ -15,7 +15,7 @@ try
 	echo $e->getMessage();
 }
 
-//verificaLogado('logado_admin');
+verificaLogado('logado_admin');
 
 ?>
 <html>
@@ -27,7 +27,7 @@ try
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
 	<script type="text/javascript" src="../js/meta.js"></script>
-
+        <meta charset="utf-8">
 	<script>
         tinymce.init({selector:'textarea'});
 	</script>
@@ -64,10 +64,10 @@ try
 					<br>
 					<ul>
 						<li><a href="?p=alterar_pizza">Alterar Pizza</a></li>
-						<li><a href="">Alterar Foto</a></li>
-						<li><a href="">Alterar Cliente</a></li>
-						<li><a href="">Alterar Categoria</a></li>
-						<li><a href="">Alterar Administrador</a></li>
+						<li><a href="?p=alterar_foto">Alterar Foto</a></li>
+						<li><a href="?p=alterar_cliente">Alterar Cliente</a></li>
+						<li><a href="?p=alterar_categoria">Alterar Categoria</a></li>
+						<li><a href="?p=alterar_administrador">Alterar Administrador</a></li>
 					</ul>
 					<br>
 					<ul>

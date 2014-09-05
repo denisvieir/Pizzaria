@@ -16,7 +16,7 @@ function carregaIncludes($includes=null,$modo)
 	
 	 set_include_path(PATH_INCLUDE."conexao/".PATH_SEPARATOR.PATH_INCLUDE."login/".
 		PATH_SEPARATOR.PATH_INCLUDE."url/".PATH_SEPARATOR.PATH_INCLUDE."cadastrar/"
-		.PATH_SEPARATOR.PATH_INCLUDE."helpers/");
+		.PATH_SEPARATOR.PATH_INCLUDE."helpers/".PATH_SEPARATOR.PATH_INCLUDE."alterar/");
 	 
 
 	if (!is_null($includes)):
