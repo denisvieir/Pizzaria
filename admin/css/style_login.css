@@ -1,0 +1,19 @@
+body{font-family: "Berlin Sans FB Demi", "Tahoma"; font-size: 18px; text-align: center;}
+*{margin:0; padding: 0;}
+
+#container{width: 420px; height: 210px; margin: 0 auto;}
+#login {background-image: url("../images/bk_login.png"); background-repeat: no-repeat; width: 410px; height: 200px;
+		margin-top: 20px;}
+
+#login #titulo {width: 410px; text-align: center; padding-top: 10px; font-size: 20px;}
+
+#login #cadeado {width: 73px; float:left; margin-top: 20px; margin-left: 20px;}
+#login .input_text_login{padding: 3px; border-radius: 6px;}
+
+#login #form_login{width: 245px; float: left;text-align: left; margin-top: 20px; margin-left: 70px;}
+
+#login label{display:block;}
+
+#login #botao_logar {}
+
+#fix {clear: both;}

@@ -1,0 +1,70 @@
+*{margin: 0; padding: 0;}
+
+body{font-family: "Tahoma";text-align: center;}
+#container{width: 800px; margin: 0 auto;}
+
+/*HEADER*/
+#header {width: 800px;}
+#header #logo {width: 400px; float:left; font-size:30px; color: #990000; text-align: left;}
+#header #logo span#sublogo {font-size: 16px;}
+#header #busca {width: 205px; float: right;margin-top: 10px; text-align: left;}
+#header #busca #txt_busca{background-color: #900; border:solid 1px #900; padding:3px; 
+							color:#FFF; height: 25px; width: 170px; font-weight: bold;}
+#header #busca #bt_busca {background-color: #900; border:solid 1px #900; padding: 2px; color:#FFF; }
+#header #busca #lupa {position:absolute; margin-top: -23px; margin-left: 182px;}
+/*FIM HEADER*/
+
+/*CONTEUDO*/
+#conteudo {width: 800px; clear: both;}
+#menuLateral{width: 150px; text-align: left; padding-top: 20px; float: left;}
+#menuLateral ul{font-size: 12px; list-style: none;}
+#menuLateral ul li{ padding:3px 0; border-bottom:solid 1px #900; color:#900;}
+#menuLateral ul li a{padding:3px 0; border-bottom:solid 1px #900; color:#900; text-decoration: none;} 
+#conteudoAdmin {width: 600px; float:right; padding-top: 20px;text-align: left; font-size: 12px;}
+#fix{clear: both;}
+/*FIM CONTEUDO*/
+
+/*BEM VINDO*/
+#bemvindo {font-size: 16px; margin-top: 10px; color:#900;}
+/*FIMBEM VINDO*/
+
+/*Form metas*/
+#metas {margin-top: 10px;}
+#metas label {display:block;}
+#resposta {margin-top: 20px;}
+/*Fim Form metas*/
+
+span#ultimoLogin{color:#333;}
+
+/*Form categoria*/
+.formularioCadastro {width: 90%; margin-left: 20px;}
+.form{background-color: #ccc; border: solid 1px  #333; padding: 10px; font-size: 14px;}
+.form .txt_field {padding: 4px; font-weight: bold; height: 25px; border:solid 1px #333; width: 300px;}
+.formularioCadastro .h2{font-size: 16px;}
+.form .bt_submit {background-color:#900; color:#FFF; padding: 2px;}
+.mensage {background-color: green; text-align: center; margin-top: 10px;}
+.erro {background-color: #900; text-align: center; margin-top: 10px; padding: 3px; color: #FFF;}
+.formCadastro {}
+/*Form categoria*/
+
+/*div obrigatorio*/
+.obrigatorio{margin-top: 10px;color:#900; font-weight: bold;}
+/*div obrigatorio*/
+
+/*Form Cadastro*/
+.formularioCadastro {width: 90%; margin-left: 20px;}
+.formCadastro{background-color: #ccc; border: solid 1px  #333; padding: 10px; font-size: 14px;}
+.formCadastro .txt_field {padding: 4px; font-weight: bold; height: 25px; border:solid 1px #333; width: 300px;}
+.formCadastro .txt_field_menor {padding: 4px; font-weight: bold; height: 25px; border:solid 1px #333; width: 100px;}
+.formCadastro .txt_field_maior {padding: 4px; font-weight: bold; height: 25px; border:solid 1px #333; width: 500px;}
+.formCadastro select {width: 200px;}
+.formularioCadastro .h2{font-size: 16px;}
+.formCadastro .bt_submit {background-color:#900; color:#FFF; padding: 2px;}
+.mensagem {background-color: green; text-align: center; margin-top: 10px;}
+.erro {background-color: #900; text-align: center; margin-top: 10px; padding: 3px; color: #FFF;}
+.formCadastro label {display:block;}
+/*Form Cadastro*/
+
+
+#rodape{text-align: center; font-size:12px; color: #333; background-color: #900; margin-top: 20px; 
+	color:#FFF; padding:3px;}

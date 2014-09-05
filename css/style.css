@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/08/2014, 14:57:09
+    Author     : denis
+*/
+
+*{margin: 0; padding: 0;}
+
+body {font-family: "Berlin Sans FB Demi", "Tahoma"}
+
+#header {background-image: url("banner_header.jpg"); background-repeat: no-repeat;
+        height:132px;       
+}
+#container {width: 800px; border:solid 1px red; margin: 0 auto; }
+#footer { text-align: center; font-size: 12px; background-color: #900; color: #FFF; padding:3px; }
+#busca {width: -60px; float: right; margin-top: -66px;}
+#logo {width: 320px; float: left; margin-top:50px; margin-left:10px;}
+#menu {background-color: #900; color:#FFF;}
