@@ -18,7 +18,7 @@ body{font-family: "Tahoma";text-align: center;}
 #conteudo {width: 800px; clear: both;}
 #menuLateral{width: 150px; text-align: left; padding-top: 20px; float: left;}
 #menuLateral ul{font-size: 12px; list-style: none;}
-#menuLateral ul li{ padding:3px 0; border-bottom:solid 1px #900; color:#900;}
+#menuLateral ul li{padding:3px 0; border-bottom:solid 1px #900; color:#900;}
 #menuLateral ul li a{padding:3px 0; border-bottom:solid 1px #900; color:#900; text-decoration: none;} 
 #conteudoAdmin {width: 600px; float:right; padding-top: 20px;text-align: left; font-size: 12px;}
 #fix{clear: both;}
@@ -64,6 +64,16 @@ span#ultimoLogin{color:#333;}
 .erro {background-color: #900; text-align: center; margin-top: 10px; padding: 3px; color: #FFF;}
 .formCadastro label {display:block;}
 /*Form Cadastro*/
+
+/*FORM ALTERAR*/
+
+.formularioAlterar {width: 93%; margin-left: 20px;}
+.formularioAlterar .cabecalho{text-align: center; font-size: 18px;font-weight:bold;}
+.formularioAlterar tr td{border: solid 1px #ccc;font-size:12px;}
+.formularioAlterar .input_text {width: 150px; border:solid 1px #900;}
+.formularioAlterar .input_button {background-color: #900; color:#FFF; width: 100px;}
+
+/*FIM FORM ALTERAR*/
 
 
 #rodape{text-align: center; font-size:12px; color: #333; background-color: #900; margin-top: 20px; 

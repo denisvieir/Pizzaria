@@ -90,3 +90,26 @@ function listar($tabela)
 	}
 
 }
+
+function pegarIdAdministrador($nome, $login)
+{
+    $pdo = conectar();
+    try
+    {
+        $pegarId = $pdo->prepare("Select administrador_id from administrador where administrador_nome =:nome and administrador_login=:login");
+        $pegarId->bindValue(":nome", $nome);
+        $pegarId->bindValue(":login", $login);
+        $pegarId->execute();
+        if ($pegarId->rowCount() > 0 )
+            {
+                $dados = $pegarId->fetch(PDO::FETCH_ASSOC);
+                return $dados['administrador_id'];
+            }
+        else
+            return false;
+    }catch(PDOException $e)
+    {
+        echo "Erro.: " .$e->getMessage();
+    }
+    
+}
