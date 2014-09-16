@@ -68,6 +68,7 @@ verificaLogado('logado_admin');
 						<li><a href="?p=alterar_cliente">Alterar Cliente</a></li>
 						<li><a href="?p=alterar_categoria">Alterar Categoria</a></li>
 						<li><a href="?p=alterar_administrador">Alterar Administrador</a></li>
+                                                <li><a href="?p=alterar_metas">Alterar Metas</a></li>
 					</ul>
 					<br>
 					<ul>

@@ -8,7 +8,7 @@ if (isset($_POST['cadastrarCliente'])):
 	$estado = obrigatorio("estado",addslashes($_POST['estado']));
 	$bairro = obrigatorio("bairro",addslashes($_POST['bairro']));
 	$cep = obrigatorio("cep",addslashes($_POST['cep']));
-	validarCep($cep);
+	$validouCep = validarCep($cep);
 	$telefone = obrigatorio("telefone",addslashes($_POST['telefone']));
 	validarTelefone($telefone);
 	$celular = obrigatorio("celular",addslashes($_POST['celular']));

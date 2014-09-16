@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 									<input type="text" name="login" class="input_text_login"></input>
 							
 									<label for="senha">Senha:</label>
-									<input type="text" name="senha" class="input_text_login"></input><br>
+									<input type="password" name="senha" class="input_text_login"></input><br>
 							
 									<input type="submit" name="logar" value="ok" id="botao_logar"/>
 								</form>

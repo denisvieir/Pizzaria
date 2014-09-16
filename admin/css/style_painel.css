@@ -70,7 +70,8 @@ span#ultimoLogin{color:#333;}
 .formularioAlterar {width: 93%; margin-left: 20px;}
 .formularioAlterar .cabecalho{text-align: center; font-size: 18px;font-weight:bold;}
 .formularioAlterar tr td{border: solid 1px #ccc;font-size:12px;}
-.formularioAlterar .input_text {width: 150px; border:solid 1px #900;}
+.formularioAlterar .input_text {width: 90px; border:solid 1px #900;}
+.formularioAlterar .input_text2 {width: 100px; border:solid 1px #900;}
 .formularioAlterar .input_button {background-color: #900; color:#FFF; width: 100px;}
 
 /*FIM FORM ALTERAR*/
